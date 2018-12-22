@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://hao-ding-6.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hao-ding-6.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4. Median of Two Sorted Arrays</title>
+      <link>https://hao-ding-6.github.io/blog/median_of_two_sorted_arrays/</link>
+      <pubDate>Sat, 22 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hao-ding-6.github.io/blog/median_of_two_sorted_arrays/</guid>
+      <description>Description There are two sorted arrays nums1 and nums2 of size m and n respectively.
+Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+You may assume nums1 and nums2 cannot be both empty.
+Example 1:
+nums1 = [1, 3] nums2 = [2] The median is 2.0  Example 2:
+nums1 = [1, 2] nums2 = [3, 4] The median is (2 + 3)/2 = 2.</description>
+    </item>
+    
+    <item>
+      <title>3. Longest Substring Without Repeating Characters</title>
+      <link>https://hao-ding-6.github.io/blog/longest_substring_without_repeating_characters/</link>
+      <pubDate>Thu, 20 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hao-ding-6.github.io/blog/longest_substring_without_repeating_characters/</guid>
+      <description>Description Given a string, find the length of the longest substring without repeating characters.
+Example 1:
+Input: &amp;quot;abcabcbb&amp;quot; Output: 3 Explanation: The answer is &amp;quot;abc&amp;quot;, with the length of 3.  Example 2:
+Input: &amp;quot;bbbbb&amp;quot; Output: 1 Explanation: The answer is &amp;quot;b&amp;quot;, with the length of 1.  Example 3:
+Input: &amp;quot;pwwkew&amp;quot; Output: 3 Explanation: The answer is &amp;quot;wke&amp;quot;, with the length of 3. Note that the answer must be a substring, &amp;quot;pwke&amp;quot; is a subsequence and not a substring.</description>
+    </item>
+    
+    <item>
+      <title>2. Add Two Numbers</title>
+      <link>https://hao-ding-6.github.io/blog/add_two_numbers/</link>
+      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hao-ding-6.github.io/blog/add_two_numbers/</guid>
+      <description>Description You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Input: (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4) Output: 7 -&amp;gt; 0 -&amp;gt; 8 Explanation: 342 + 465 = 807.</description>
+    </item>
+    
+    <item>
+      <title>1. Two Sum</title>
+      <link>https://hao-ding-6.github.io/blog/two_sum/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://hao-ding-6.github.io/blog/two_sum/</guid>
+      <description>Description Given an array of integers and a value, determine if there are any two integers in the array which sum equal to the given value.
+For example:
+Given nums = [2, 7, 11, 15], target = 9, Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1].  Solution The most brute-force solution is to iterate the array using two pointers i, for each position of i, we iterate the part after i of that array using pointer j, if nums[i] + nums[j] == target, we return the result [i, j].</description>
+    </item>
+    
+  </channel>
+</rss>
